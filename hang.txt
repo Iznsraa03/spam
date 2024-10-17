@@ -1,0 +1,1008 @@
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Fabric] [Fabric] Value of Info.plist[Fabric][Kits] should be a NSArray.
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Crashlytics] Version 3.7.2 (112)
+2016-08-22 14:55:08.832 pomochat[25438:5472070] [Crashlytics:Crash:Reports] Packaged report with id 'a146b9af50db418fa742f9410e4a5399' for submission
+2016-08-22 14:55:09.373 [info][tid:com.facebook.react.JavaScript] 'device', 375, 'x', 667
+2016-08-22 14:55:09.374 [info][tid:com.facebook.react.JavaScript] 'ratio', 1.2807291666666667
+2016-08-22 14:55:23.218 pomochat[25438:5473589] Launching Couchbase Lite...
+14:55:23.222‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'TDRouter'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.224‖ Logging ChangeTracker, RemoteRequest, Sync(Verbose), View to TTY
+14:55:23.224‖ ### Couchbase Lite 1.3.0 (build 68) (master branch, Aug  3 2016) ###
+2016-08-22 14:55:23.245 pomochat[25438:5473589] Trying port 5984
+2016-08-22 14:55:23.247 pomochat[25438:5473589] Couchbase Lite running on http://macbookpro-3.home:5984/
+2016-08-22 14:55:23.248 pomochat[25438:5473589] Couchbase Lite listening on port <5984>
+14:55:23.752‖ Couchbase Lite using SQLite version 3.8.10.2 (2015-05-20 18:17:19 2ef4f3a5b1d1d0c4338f8243d40a2452cc1f7fe4)
+14:55:23.752‖ FYI, couldn't enable SQLite mmap: error 21
+14:55:24.200‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Reading from input stream...
+14:55:24.201‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Finished loading (0 attachments)
+2016-08-22 14:55:24.799 pomochat[25438:5473594] -[RNNetworkInfo getSSID:]: Supported interfaces: (null)
+2016-08-22 14:55:25.290 pomochat[25438:5473544] Starting one-shot pull sync for pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663 to http://192.168.1.185:4986/sync_gateway
+14:55:25.299‖ Sync: CBLReplication[from http://192.168.1.185:4986/sync_gateway]: offline, progress = 0 / 0, err: (null)
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Successfully logged in!
+14:55:25.301‖ Sync: <CBLRemoteSession: 0x7fe6a2b5e450>: GET /sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b
+14:55:25.301‖ RemoteRequest: Added Authorization header for CBLPasswordAuthorizer[c5149e0b-d6a6-4d7c-9498-ed311552c663/****]
+14:55:25.301‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Starting...
+14:55:25.302‖ DEALLOC CBLRemoteLogin[http://192.168.1.185:4986/sync_gateway]
+14:55:25.303‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+2016-08-22 14:55:25.299 pomochat[25438:5473544] notiication CBLReplicationChange
+14:55:25.304‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+2016-08-22 14:55:25.304 pomochat[25438:5473544] percent complete 100.000000
+2016-08-22 14:55:25.306 pomochat[25438:5473544] offline
+14:55:25.340‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.340‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Got response, status 200
+14:55:25.341‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+14:55:25.341‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Finished loading
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=0, since=207362
+14:55:25.341‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Starting...
+14:55:25.342‖ Sync: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: POST //192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362
+14:55:25.349‖ ChangeTracker: Changes feed using proxy settings {
+    ExceptionsList =     (
+        "*.local",
+        "169.254/16"
+    );
+    FTPPassive = 1;
+    "__SCOPED__" =     {
+        en0 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+        en8 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+    };
+}
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362>
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Event 1 on <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.395‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: EndEncountered <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.396‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: ChangeTracker stopped; error=(null)
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:25.398‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:25.398‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 0.097 sec; error=(null)
+14:55:25.398‖ RemoteRequest: CBLRemoteSession closing
+14:55:25.400‖ RemoteRequest: CBLRemoteSession closed
+14:55:25.814‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STARTING ...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Going online
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 1
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.818‖ Sync: <CBLRemoteSession: 0x7fe6a29b0d30>: GET /sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec
+14:55:25.818‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Starting...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.819‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.822‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ Sync: <CBLRemoteSession: 0x7fe6a2b66620>: GET /sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da
+14:55:25.826‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Starting...
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.838‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Got response, status 200
+14:55:25.839‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Finished loading
+14:55:25.840‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Replicating from lastSequence=50734
+14:55:25.978‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Received 0 revs
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 0
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:25.979‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Got response, status 200
+14:55:25.979‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Finished loading
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=3, since=207362
+14:55:25.980‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Starting...
+14:55:25.981‖ Sync: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: GET //192.168.1.185:4986/sync_gateway/_changes?feed=websocket
+14:55:25.982‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=websocket>
+14:55:26.004‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: caught up!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:26.006‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPING...
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:42.348‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 16.525 sec; error=(null)
+14:55:42.350‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.351‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.351‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPED
+14:55:42.353‖ Replication: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] took 16.537 sec; error=(null)
+14:55:42.353‖ RemoteRequest: CBLRemoteSession closed
+14:55:42.356‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closed
+14:55:45.583‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:46.771‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:47.964‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:49.145‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:50.305‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:51.478‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:52.634‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:53.772‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:54.955‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:56.132‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:57.329‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Fabric] [Fabric] Value of Info.plist[Fabric][Kits] should be a NSArray.
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Crashlytics] Version 3.7.2 (112)
+2016-08-22 14:55:08.832 pomochat[25438:5472070] [Crashlytics:Crash:Reports] Packaged report with id 'a146b9af50db418fa742f9410e4a5399' for submission
+2016-08-22 14:55:09.373 [info][tid:com.facebook.react.JavaScript] 'device', 375, 'x', 667
+2016-08-22 14:55:09.374 [info][tid:com.facebook.react.JavaScript] 'ratio', 1.2807291666666667
+2016-08-22 14:55:23.218 pomochat[25438:5473589] Launching Couchbase Lite...
+14:55:23.222‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'TDRouter'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.224‖ Logging ChangeTracker, RemoteRequest, Sync(Verbose), View to TTY
+14:55:23.224‖ ### Couchbase Lite 1.3.0 (build 68) (master branch, Aug  3 2016) ###
+2016-08-22 14:55:23.245 pomochat[25438:5473589] Trying port 5984
+2016-08-22 14:55:23.247 pomochat[25438:5473589] Couchbase Lite running on http://macbookpro-3.home:5984/
+2016-08-22 14:55:23.248 pomochat[25438:5473589] Couchbase Lite listening on port <5984>
+14:55:23.752‖ Couchbase Lite using SQLite version 3.8.10.2 (2015-05-20 18:17:19 2ef4f3a5b1d1d0c4338f8243d40a2452cc1f7fe4)
+14:55:23.752‖ FYI, couldn't enable SQLite mmap: error 21
+14:55:24.200‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Reading from input stream...
+14:55:24.201‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Finished loading (0 attachments)
+2016-08-22 14:55:24.799 pomochat[25438:5473594] -[RNNetworkInfo getSSID:]: Supported interfaces: (null)
+2016-08-22 14:55:25.290 pomochat[25438:5473544] Starting one-shot pull sync for pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663 to http://192.168.1.185:4986/sync_gateway
+14:55:25.299‖ Sync: CBLReplication[from http://192.168.1.185:4986/sync_gateway]: offline, progress = 0 / 0, err: (null)
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Successfully logged in!
+14:55:25.301‖ Sync: <CBLRemoteSession: 0x7fe6a2b5e450>: GET /sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b
+14:55:25.301‖ RemoteRequest: Added Authorization header for CBLPasswordAuthorizer[c5149e0b-d6a6-4d7c-9498-ed311552c663/****]
+14:55:25.301‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Starting...
+14:55:25.302‖ DEALLOC CBLRemoteLogin[http://192.168.1.185:4986/sync_gateway]
+14:55:25.303‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+2016-08-22 14:55:25.299 pomochat[25438:5473544] notiication CBLReplicationChange
+14:55:25.304‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+2016-08-22 14:55:25.304 pomochat[25438:5473544] percent complete 100.000000
+2016-08-22 14:55:25.306 pomochat[25438:5473544] offline
+14:55:25.340‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.340‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Got response, status 200
+14:55:25.341‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+14:55:25.341‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Finished loading
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=0, since=207362
+14:55:25.341‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Starting...
+14:55:25.342‖ Sync: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: POST //192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362
+14:55:25.349‖ ChangeTracker: Changes feed using proxy settings {
+    ExceptionsList =     (
+        "*.local",
+        "169.254/16"
+    );
+    FTPPassive = 1;
+    "__SCOPED__" =     {
+        en0 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+        en8 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+    };
+}
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362>
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Event 1 on <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.395‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: EndEncountered <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.396‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: ChangeTracker stopped; error=(null)
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:25.398‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:25.398‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 0.097 sec; error=(null)
+14:55:25.398‖ RemoteRequest: CBLRemoteSession closing
+14:55:25.400‖ RemoteRequest: CBLRemoteSession closed
+14:55:25.814‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STARTING ...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Going online
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 1
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.818‖ Sync: <CBLRemoteSession: 0x7fe6a29b0d30>: GET /sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec
+14:55:25.818‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Starting...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.819‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.822‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ Sync: <CBLRemoteSession: 0x7fe6a2b66620>: GET /sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da
+14:55:25.826‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Starting...
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.838‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Got response, status 200
+14:55:25.839‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Finished loading
+14:55:25.840‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Replicating from lastSequence=50734
+14:55:25.978‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Received 0 revs
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 0
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:25.979‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Got response, status 200
+14:55:25.979‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Finished loading
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=3, since=207362
+14:55:25.980‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Starting...
+14:55:25.981‖ Sync: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: GET //192.168.1.185:4986/sync_gateway/_changes?feed=websocket
+14:55:25.982‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=websocket>
+14:55:26.004‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: caught up!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:26.006‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPING...
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:42.348‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 16.525 sec; error=(null)
+14:55:42.350‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.351‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.351‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPED
+14:55:42.353‖ Replication: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] took 16.537 sec; error=(null)
+14:55:42.353‖ RemoteRequest: CBLRemoteSession closed
+14:55:42.356‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closed
+14:55:45.583‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:46.771‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:47.964‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:49.145‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:50.305‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:51.478‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:52.634‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:53.772‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:54.955‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:56.132‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:57.329‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Fabric] [Fabric] Value of Info.plist[Fabric][Kits] should be a NSArray.
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Crashlytics] Version 3.7.2 (112)
+2016-08-22 14:55:08.832 pomochat[25438:5472070] [Crashlytics:Crash:Reports] Packaged report with id 'a146b9af50db418fa742f9410e4a5399' for submission
+2016-08-22 14:55:09.373 [info][tid:com.facebook.react.JavaScript] 'device', 375, 'x', 667
+2016-08-22 14:55:09.374 [info][tid:com.facebook.react.JavaScript] 'ratio', 1.2807291666666667
+2016-08-22 14:55:23.218 pomochat[25438:5473589] Launching Couchbase Lite...
+14:55:23.222‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'TDRouter'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.224‖ Logging ChangeTracker, RemoteRequest, Sync(Verbose), View to TTY
+14:55:23.224‖ ### Couchbase Lite 1.3.0 (build 68) (master branch, Aug  3 2016) ###
+2016-08-22 14:55:23.245 pomochat[25438:5473589] Trying port 5984
+2016-08-22 14:55:23.247 pomochat[25438:5473589] Couchbase Lite running on http://macbookpro-3.home:5984/
+2016-08-22 14:55:23.248 pomochat[25438:5473589] Couchbase Lite listening on port <5984>
+14:55:23.752‖ Couchbase Lite using SQLite version 3.8.10.2 (2015-05-20 18:17:19 2ef4f3a5b1d1d0c4338f8243d40a2452cc1f7fe4)
+14:55:23.752‖ FYI, couldn't enable SQLite mmap: error 21
+14:55:24.200‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Reading from input stream...
+14:55:24.201‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Finished loading (0 attachments)
+2016-08-22 14:55:24.799 pomochat[25438:5473594] -[RNNetworkInfo getSSID:]: Supported interfaces: (null)
+2016-08-22 14:55:25.290 pomochat[25438:5473544] Starting one-shot pull sync for pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663 to http://192.168.1.185:4986/sync_gateway
+14:55:25.299‖ Sync: CBLReplication[from http://192.168.1.185:4986/sync_gateway]: offline, progress = 0 / 0, err: (null)
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Successfully logged in!
+14:55:25.301‖ Sync: <CBLRemoteSession: 0x7fe6a2b5e450>: GET /sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b
+14:55:25.301‖ RemoteRequest: Added Authorization header for CBLPasswordAuthorizer[c5149e0b-d6a6-4d7c-9498-ed311552c663/****]
+14:55:25.301‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Starting...
+14:55:25.302‖ DEALLOC CBLRemoteLogin[http://192.168.1.185:4986/sync_gateway]
+14:55:25.303‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+2016-08-22 14:55:25.299 pomochat[25438:5473544] notiication CBLReplicationChange
+14:55:25.304‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+2016-08-22 14:55:25.304 pomochat[25438:5473544] percent complete 100.000000
+2016-08-22 14:55:25.306 pomochat[25438:5473544] offline
+14:55:25.340‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.340‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Got response, status 200
+14:55:25.341‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+14:55:25.341‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Finished loading
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=0, since=207362
+14:55:25.341‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Starting...
+14:55:25.342‖ Sync: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: POST //192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362
+14:55:25.349‖ ChangeTracker: Changes feed using proxy settings {
+    ExceptionsList =     (
+        "*.local",
+        "169.254/16"
+    );
+    FTPPassive = 1;
+    "__SCOPED__" =     {
+        en0 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+        en8 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+    };
+}
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362>
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Event 1 on <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.395‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: EndEncountered <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.396‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: ChangeTracker stopped; error=(null)
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:25.398‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:25.398‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 0.097 sec; error=(null)
+14:55:25.398‖ RemoteRequest: CBLRemoteSession closing
+14:55:25.400‖ RemoteRequest: CBLRemoteSession closed
+14:55:25.814‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STARTING ...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Going online
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 1
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.818‖ Sync: <CBLRemoteSession: 0x7fe6a29b0d30>: GET /sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec
+14:55:25.818‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Starting...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.819‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.822‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ Sync: <CBLRemoteSession: 0x7fe6a2b66620>: GET /sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da
+14:55:25.826‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Starting...
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.838‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Got response, status 200
+14:55:25.839‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Finished loading
+14:55:25.840‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Replicating from lastSequence=50734
+14:55:25.978‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Received 0 revs
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 0
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:25.979‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Got response, status 200
+14:55:25.979‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Finished loading
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=3, since=207362
+14:55:25.980‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Starting...
+14:55:25.981‖ Sync: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: GET //192.168.1.185:4986/sync_gateway/_changes?feed=websocket
+14:55:25.982‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=websocket>
+14:55:26.004‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: caught up!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:26.006‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPING...
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:42.348‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 16.525 sec; error=(null)
+14:55:42.350‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.351‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.351‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPED
+14:55:42.353‖ Replication: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] took 16.537 sec; error=(null)
+14:55:42.353‖ RemoteRequest: CBLRemoteSession closed
+14:55:42.356‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closed
+14:55:45.583‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:46.771‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:47.964‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:49.145‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:50.305‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:51.478‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:52.634‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:53.772‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:54.955‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:56.132‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:57.329‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Fabric] [Fabric] Value of Info.plist[Fabric][Kits] should be a NSArray.
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Crashlytics] Version 3.7.2 (112)
+2016-08-22 14:55:08.832 pomochat[25438:5472070] [Crashlytics:Crash:Reports] Packaged report with id 'a146b9af50db418fa742f9410e4a5399' for submission
+2016-08-22 14:55:09.373 [info][tid:com.facebook.react.JavaScript] 'device', 375, 'x', 667
+2016-08-22 14:55:09.374 [info][tid:com.facebook.react.JavaScript] 'ratio', 1.2807291666666667
+2016-08-22 14:55:23.218 pomochat[25438:5473589] Launching Couchbase Lite...
+14:55:23.222‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'TDRouter'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.224‖ Logging ChangeTracker, RemoteRequest, Sync(Verbose), View to TTY
+14:55:23.224‖ ### Couchbase Lite 1.3.0 (build 68) (master branch, Aug  3 2016) ###
+2016-08-22 14:55:23.245 pomochat[25438:5473589] Trying port 5984
+2016-08-22 14:55:23.247 pomochat[25438:5473589] Couchbase Lite running on http://macbookpro-3.home:5984/
+2016-08-22 14:55:23.248 pomochat[25438:5473589] Couchbase Lite listening on port <5984>
+14:55:23.752‖ Couchbase Lite using SQLite version 3.8.10.2 (2015-05-20 18:17:19 2ef4f3a5b1d1d0c4338f8243d40a2452cc1f7fe4)
+14:55:23.752‖ FYI, couldn't enable SQLite mmap: error 21
+14:55:24.200‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Reading from input stream...
+14:55:24.201‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Finished loading (0 attachments)
+2016-08-22 14:55:24.799 pomochat[25438:5473594] -[RNNetworkInfo getSSID:]: Supported interfaces: (null)
+2016-08-22 14:55:25.290 pomochat[25438:5473544] Starting one-shot pull sync for pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663 to http://192.168.1.185:4986/sync_gateway
+14:55:25.299‖ Sync: CBLReplication[from http://192.168.1.185:4986/sync_gateway]: offline, progress = 0 / 0, err: (null)
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Successfully logged in!
+14:55:25.301‖ Sync: <CBLRemoteSession: 0x7fe6a2b5e450>: GET /sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b
+14:55:25.301‖ RemoteRequest: Added Authorization header for CBLPasswordAuthorizer[c5149e0b-d6a6-4d7c-9498-ed311552c663/****]
+14:55:25.301‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Starting...
+14:55:25.302‖ DEALLOC CBLRemoteLogin[http://192.168.1.185:4986/sync_gateway]
+14:55:25.303‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+2016-08-22 14:55:25.299 pomochat[25438:5473544] notiication CBLReplicationChange
+14:55:25.304‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+2016-08-22 14:55:25.304 pomochat[25438:5473544] percent complete 100.000000
+2016-08-22 14:55:25.306 pomochat[25438:5473544] offline
+14:55:25.340‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.340‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Got response, status 200
+14:55:25.341‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+14:55:25.341‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Finished loading
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=0, since=207362
+14:55:25.341‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Starting...
+14:55:25.342‖ Sync: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: POST //192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362
+14:55:25.349‖ ChangeTracker: Changes feed using proxy settings {
+    ExceptionsList =     (
+        "*.local",
+        "169.254/16"
+    );
+    FTPPassive = 1;
+    "__SCOPED__" =     {
+        en0 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+        en8 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+    };
+}
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362>
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Event 1 on <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.395‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: EndEncountered <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.396‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: ChangeTracker stopped; error=(null)
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:25.398‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:25.398‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 0.097 sec; error=(null)
+14:55:25.398‖ RemoteRequest: CBLRemoteSession closing
+14:55:25.400‖ RemoteRequest: CBLRemoteSession closed
+14:55:25.814‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STARTING ...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Going online
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 1
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.818‖ Sync: <CBLRemoteSession: 0x7fe6a29b0d30>: GET /sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec
+14:55:25.818‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Starting...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.819‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.822‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ Sync: <CBLRemoteSession: 0x7fe6a2b66620>: GET /sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da
+14:55:25.826‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Starting...
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.838‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Got response, status 200
+14:55:25.839‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Finished loading
+14:55:25.840‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Replicating from lastSequence=50734
+14:55:25.978‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Received 0 revs
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 0
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:25.979‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Got response, status 200
+14:55:25.979‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Finished loading
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=3, since=207362
+14:55:25.980‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Starting...
+14:55:25.981‖ Sync: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: GET //192.168.1.185:4986/sync_gateway/_changes?feed=websocket
+14:55:25.982‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=websocket>
+14:55:26.004‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: caught up!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:26.006‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPING...
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:42.348‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 16.525 sec; error=(null)
+14:55:42.350‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.351‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.351‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPED
+14:55:42.353‖ Replication: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] took 16.537 sec; error=(null)
+14:55:42.353‖ RemoteRequest: CBLRemoteSession closed
+14:55:42.356‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closed
+14:55:45.583‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:46.771‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:47.964‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:49.145‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:50.305‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:51.478‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:52.634‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:53.772‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:54.955‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:56.132‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:57.329‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Fabric] [Fabric] Value of Info.plist[Fabric][Kits] should be a NSArray.
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Crashlytics] Version 3.7.2 (112)
+2016-08-22 14:55:08.832 pomochat[25438:5472070] [Crashlytics:Crash:Reports] Packaged report with id 'a146b9af50db418fa742f9410e4a5399' for submission
+2016-08-22 14:55:09.373 [info][tid:com.facebook.react.JavaScript] 'device', 375, 'x', 667
+2016-08-22 14:55:09.374 [info][tid:com.facebook.react.JavaScript] 'ratio', 1.2807291666666667
+2016-08-22 14:55:23.218 pomochat[25438:5473589] Launching Couchbase Lite...
+14:55:23.222‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'TDRouter'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.224‖ Logging ChangeTracker, RemoteRequest, Sync(Verbose), View to TTY
+14:55:23.224‖ ### Couchbase Lite 1.3.0 (build 68) (master branch, Aug  3 2016) ###
+2016-08-22 14:55:23.245 pomochat[25438:5473589] Trying port 5984
+2016-08-22 14:55:23.247 pomochat[25438:5473589] Couchbase Lite running on http://macbookpro-3.home:5984/
+2016-08-22 14:55:23.248 pomochat[25438:5473589] Couchbase Lite listening on port <5984>
+14:55:23.752‖ Couchbase Lite using SQLite version 3.8.10.2 (2015-05-20 18:17:19 2ef4f3a5b1d1d0c4338f8243d40a2452cc1f7fe4)
+14:55:23.752‖ FYI, couldn't enable SQLite mmap: error 21
+14:55:24.200‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Reading from input stream...
+14:55:24.201‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Finished loading (0 attachments)
+2016-08-22 14:55:24.799 pomochat[25438:5473594] -[RNNetworkInfo getSSID:]: Supported interfaces: (null)
+2016-08-22 14:55:25.290 pomochat[25438:5473544] Starting one-shot pull sync for pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663 to http://192.168.1.185:4986/sync_gateway
+14:55:25.299‖ Sync: CBLReplication[from http://192.168.1.185:4986/sync_gateway]: offline, progress = 0 / 0, err: (null)
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Successfully logged in!
+14:55:25.301‖ Sync: <CBLRemoteSession: 0x7fe6a2b5e450>: GET /sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b
+14:55:25.301‖ RemoteRequest: Added Authorization header for CBLPasswordAuthorizer[c5149e0b-d6a6-4d7c-9498-ed311552c663/****]
+14:55:25.301‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Starting...
+14:55:25.302‖ DEALLOC CBLRemoteLogin[http://192.168.1.185:4986/sync_gateway]
+14:55:25.303‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+2016-08-22 14:55:25.299 pomochat[25438:5473544] notiication CBLReplicationChange
+14:55:25.304‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+2016-08-22 14:55:25.304 pomochat[25438:5473544] percent complete 100.000000
+2016-08-22 14:55:25.306 pomochat[25438:5473544] offline
+14:55:25.340‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.340‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Got response, status 200
+14:55:25.341‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+14:55:25.341‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Finished loading
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=0, since=207362
+14:55:25.341‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Starting...
+14:55:25.342‖ Sync: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: POST //192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362
+14:55:25.349‖ ChangeTracker: Changes feed using proxy settings {
+    ExceptionsList =     (
+        "*.local",
+        "169.254/16"
+    );
+    FTPPassive = 1;
+    "__SCOPED__" =     {
+        en0 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+        en8 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+    };
+}
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362>
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Event 1 on <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.395‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: EndEncountered <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.396‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: ChangeTracker stopped; error=(null)
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:25.398‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:25.398‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 0.097 sec; error=(null)
+14:55:25.398‖ RemoteRequest: CBLRemoteSession closing
+14:55:25.400‖ RemoteRequest: CBLRemoteSession closed
+14:55:25.814‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STARTING ...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Going online
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 1
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.818‖ Sync: <CBLRemoteSession: 0x7fe6a29b0d30>: GET /sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec
+14:55:25.818‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Starting...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.819‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.822‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ Sync: <CBLRemoteSession: 0x7fe6a2b66620>: GET /sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da
+14:55:25.826‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Starting...
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.838‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Got response, status 200
+14:55:25.839‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Finished loading
+14:55:25.840‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Replicating from lastSequence=50734
+14:55:25.978‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Received 0 revs
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 0
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:25.979‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Got response, status 200
+14:55:25.979‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Finished loading
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=3, since=207362
+14:55:25.980‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Starting...
+14:55:25.981‖ Sync: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: GET //192.168.1.185:4986/sync_gateway/_changes?feed=websocket
+14:55:25.982‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=websocket>
+14:55:26.004‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: caught up!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:26.006‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPING...
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:42.348‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 16.525 sec; error=(null)
+14:55:42.350‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.351‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.351‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPED
+14:55:42.353‖ Replication: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] took 16.537 sec; error=(null)
+14:55:42.353‖ RemoteRequest: CBLRemoteSession closed
+14:55:42.356‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closed
+14:55:45.583‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:46.771‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:47.964‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:49.145‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:50.305‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:51.478‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:52.634‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:53.772‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:54.955‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:56.132‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:57.329‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Fabric] [Fabric] Value of Info.plist[Fabric][Kits] should be a NSArray.
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Crashlytics] Version 3.7.2 (112)
+2016-08-22 14:55:08.832 pomochat[25438:5472070] [Crashlytics:Crash:Reports] Packaged report with id 'a146b9af50db418fa742f9410e4a5399' for submission
+2016-08-22 14:55:09.373 [info][tid:com.facebook.react.JavaScript] 'device', 375, 'x', 667
+2016-08-22 14:55:09.374 [info][tid:com.facebook.react.JavaScript] 'ratio', 1.2807291666666667
+2016-08-22 14:55:23.218 pomochat[25438:5473589] Launching Couchbase Lite...
+14:55:23.222‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'TDRouter'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.224‖ Logging ChangeTracker, RemoteRequest, Sync(Verbose), View to TTY
+14:55:23.224‖ ### Couchbase Lite 1.3.0 (build 68) (master branch, Aug  3 2016) ###
+2016-08-22 14:55:23.245 pomochat[25438:5473589] Trying port 5984
+2016-08-22 14:55:23.247 pomochat[25438:5473589] Couchbase Lite running on http://macbookpro-3.home:5984/
+2016-08-22 14:55:23.248 pomochat[25438:5473589] Couchbase Lite listening on port <5984>
+14:55:23.752‖ Couchbase Lite using SQLite version 3.8.10.2 (2015-05-20 18:17:19 2ef4f3a5b1d1d0c4338f8243d40a2452cc1f7fe4)
+14:55:23.752‖ FYI, couldn't enable SQLite mmap: error 21
+14:55:24.200‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Reading from input stream...
+14:55:24.201‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Finished loading (0 attachments)
+2016-08-22 14:55:24.799 pomochat[25438:5473594] -[RNNetworkInfo getSSID:]: Supported interfaces: (null)
+2016-08-22 14:55:25.290 pomochat[25438:5473544] Starting one-shot pull sync for pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663 to http://192.168.1.185:4986/sync_gateway
+14:55:25.299‖ Sync: CBLReplication[from http://192.168.1.185:4986/sync_gateway]: offline, progress = 0 / 0, err: (null)
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Successfully logged in!
+14:55:25.301‖ Sync: <CBLRemoteSession: 0x7fe6a2b5e450>: GET /sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b
+14:55:25.301‖ RemoteRequest: Added Authorization header for CBLPasswordAuthorizer[c5149e0b-d6a6-4d7c-9498-ed311552c663/****]
+14:55:25.301‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Starting...
+14:55:25.302‖ DEALLOC CBLRemoteLogin[http://192.168.1.185:4986/sync_gateway]
+14:55:25.303‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+2016-08-22 14:55:25.299 pomochat[25438:5473544] notiication CBLReplicationChange
+14:55:25.304‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+2016-08-22 14:55:25.304 pomochat[25438:5473544] percent complete 100.000000
+2016-08-22 14:55:25.306 pomochat[25438:5473544] offline
+14:55:25.340‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.340‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Got response, status 200
+14:55:25.341‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+14:55:25.341‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Finished loading
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=0, since=207362
+14:55:25.341‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Starting...
+14:55:25.342‖ Sync: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: POST //192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362
+14:55:25.349‖ ChangeTracker: Changes feed using proxy settings {
+    ExceptionsList =     (
+        "*.local",
+        "169.254/16"
+    );
+    FTPPassive = 1;
+    "__SCOPED__" =     {
+        en0 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+        en8 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+    };
+}
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362>
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Event 1 on <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.395‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: EndEncountered <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.396‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: ChangeTracker stopped; error=(null)
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:25.398‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:25.398‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 0.097 sec; error=(null)
+14:55:25.398‖ RemoteRequest: CBLRemoteSession closing
+14:55:25.400‖ RemoteRequest: CBLRemoteSession closed
+14:55:25.814‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STARTING ...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Going online
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 1
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.818‖ Sync: <CBLRemoteSession: 0x7fe6a29b0d30>: GET /sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec
+14:55:25.818‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Starting...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.819‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.822‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ Sync: <CBLRemoteSession: 0x7fe6a2b66620>: GET /sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da
+14:55:25.826‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Starting...
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.838‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Got response, status 200
+14:55:25.839‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Finished loading
+14:55:25.840‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Replicating from lastSequence=50734
+14:55:25.978‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Received 0 revs
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 0
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:25.979‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Got response, status 200
+14:55:25.979‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Finished loading
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=3, since=207362
+14:55:25.980‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Starting...
+14:55:25.981‖ Sync: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: GET //192.168.1.185:4986/sync_gateway/_changes?feed=websocket
+14:55:25.982‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=websocket>
+14:55:26.004‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: caught up!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:26.006‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPING...
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:42.348‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 16.525 sec; error=(null)
+14:55:42.350‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.351‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.351‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPED
+14:55:42.353‖ Replication: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] took 16.537 sec; error=(null)
+14:55:42.353‖ RemoteRequest: CBLRemoteSession closed
+14:55:42.356‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closed
+14:55:45.583‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:46.771‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:47.964‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:49.145‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:50.305‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:51.478‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:52.634‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:53.772‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:54.955‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:56.132‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:57.329‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Fabric] [Fabric] Value of Info.plist[Fabric][Kits] should be a NSArray.
+2016-08-22 14:55:08.801 pomochat[25438:5471877] [Crashlytics] Version 3.7.2 (112)
+2016-08-22 14:55:08.832 pomochat[25438:5472070] [Crashlytics:Crash:Reports] Packaged report with id 'a146b9af50db418fa742f9410e4a5399' for submission
+2016-08-22 14:55:09.373 [info][tid:com.facebook.react.JavaScript] 'device', 375, 'x', 667
+2016-08-22 14:55:09.374 [info][tid:com.facebook.react.JavaScript] 'ratio', 1.2807291666666667
+2016-08-22 14:55:23.218 pomochat[25438:5473589] Launching Couchbase Lite...
+14:55:23.222‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'CBLListener'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.223‖ WARNING: EnableLogTo: There is no logging domain named 'TDRouter'. Available domains are: BLIP, BLIPLifecycle, ChangeTracker, Database, JSONReader, Listener, Model, MultiStreamWriter, Query, Reachability, RemoteRequest, Router, Server, SQL, Sync, SyncPerf, Upgrade, Validation, View, WS {at enableLogTo:129}
+14:55:23.224‖ Logging ChangeTracker, RemoteRequest, Sync(Verbose), View to TTY
+14:55:23.224‖ ### Couchbase Lite 1.3.0 (build 68) (master branch, Aug  3 2016) ###
+2016-08-22 14:55:23.245 pomochat[25438:5473589] Trying port 5984
+2016-08-22 14:55:23.247 pomochat[25438:5473589] Couchbase Lite running on http://macbookpro-3.home:5984/
+2016-08-22 14:55:23.248 pomochat[25438:5473589] Couchbase Lite listening on port <5984>
+14:55:23.752‖ Couchbase Lite using SQLite version 3.8.10.2 (2015-05-20 18:17:19 2ef4f3a5b1d1d0c4338f8243d40a2452cc1f7fe4)
+14:55:23.752‖ FYI, couldn't enable SQLite mmap: error 21
+14:55:24.200‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Reading from input stream...
+14:55:24.201‖ Sync: CBLMultipartDocumentReader[_id="(null)"]: Finished loading (0 attachments)
+2016-08-22 14:55:24.799 pomochat[25438:5473594] -[RNNetworkInfo getSSID:]: Supported interfaces: (null)
+2016-08-22 14:55:25.290 pomochat[25438:5473544] Starting one-shot pull sync for pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663 to http://192.168.1.185:4986/sync_gateway
+14:55:25.299‖ Sync: CBLReplication[from http://192.168.1.185:4986/sync_gateway]: offline, progress = 0 / 0, err: (null)
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.300‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Successfully logged in!
+14:55:25.301‖ Sync: <CBLRemoteSession: 0x7fe6a2b5e450>: GET /sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b
+14:55:25.301‖ RemoteRequest: Added Authorization header for CBLPasswordAuthorizer[c5149e0b-d6a6-4d7c-9498-ed311552c663/****]
+14:55:25.301‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Starting...
+14:55:25.302‖ DEALLOC CBLRemoteLogin[http://192.168.1.185:4986/sync_gateway]
+14:55:25.303‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+2016-08-22 14:55:25.299 pomochat[25438:5473544] notiication CBLReplicationChange
+14:55:25.304‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+2016-08-22 14:55:25.304 pomochat[25438:5473544] percent complete 100.000000
+2016-08-22 14:55:25.306 pomochat[25438:5473544] offline
+14:55:25.340‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.340‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Got response, status 200
+14:55:25.341‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]
+14:55:25.341‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/9f3b2bc23b6ac6bbe65504b7ed904732abdf3f9b]: Finished loading
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.341‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=0, since=207362
+14:55:25.341‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Starting...
+14:55:25.342‖ Sync: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: POST //192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362
+14:55:25.349‖ ChangeTracker: Changes feed using proxy settings {
+    ExceptionsList =     (
+        "*.local",
+        "169.254/16"
+    );
+    FTPPassive = 1;
+    "__SCOPED__" =     {
+        en0 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+        en8 =         {
+            ExceptionsList =             (
+                "*.local",
+                "169.254/16"
+            );
+            FTPPassive = 1;
+        };
+    };
+}
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=normal&heartbeat=300000&style=all_docs&since=207362>
+14:55:25.352‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: Event 1 on <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.395‖ ChangeTracker: CBLSocketChangeTracker[0x7fe6a2d177a0 sync_gateway]: EndEncountered <__NSCFInputStream: 0x7fe6a2c17b40>
+14:55:25.396‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: ChangeTracker stopped; error=(null)
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:25.397‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:25.398‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:25.398‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 0.097 sec; error=(null)
+14:55:25.398‖ RemoteRequest: CBLRemoteSession closing
+14:55:25.400‖ RemoteRequest: CBLRemoteSession closed
+14:55:25.814‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STARTING ...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Going online
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 1
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.818‖ Sync: <CBLRemoteSession: 0x7fe6a29b0d30>: GET /sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec
+14:55:25.818‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Starting...
+14:55:25.818‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.819‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.822‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STARTING ...
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Reachability state = <192.168.1.185>:reachable (20002), suspended=0
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Going online
+14:55:25.825‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 1
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ Sync: <CBLRemoteSession: 0x7fe6a2b66620>: GET /sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da
+14:55:25.826‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Starting...
+14:55:25.826‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=1 (batch=0, net=1), lastSeq=(null), online=1, error=(null))
+14:55:25.826‖ RemoteRequest: CBLRemoteSession starting CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.838‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Got response, status 200
+14:55:25.839‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]
+14:55:25.839‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4984/sync_gateway/_local/0b36f0e66e57b3cc5366c2a38b1abf6d3d56c2ec]: Finished loading
+14:55:25.840‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Replicating from lastSequence=50734
+14:55:25.978‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: Received 0 revs
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] Progress: set active = 0
+14:55:25.979‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:25.979‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Server is Couchbase Sync Gateway/1.3.0
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Got response, status 200
+14:55:25.979‖ RemoteRequest: CBLRemoteSession done with CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]
+14:55:25.979‖ RemoteRequest: CBLRemoteJSONRequest[GET http://192.168.1.185:4986/sync_gateway/_local/7d3af43f906b96916b54bde1dc53a801b639b5da]: Finished loading
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Replicating from lastSequence=207362
+14:55:25.980‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] starting ChangeTracker: mode=3, since=207362
+14:55:25.980‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Starting...
+14:55:25.981‖ Sync: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: GET //192.168.1.185:4986/sync_gateway/_changes?feed=websocket
+14:55:25.982‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: Started... <http://192.168.1.185:4986/sync_gateway/_changes?feed=websocket>
+14:55:26.004‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: caught up!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: Caught up with changes!
+14:55:26.005‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] Progress: set active = 0
+14:55:26.006‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPING...
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ ChangeTracker: CBLWebSocketChangeTracker[0x7fe6a0640a70 sync_gateway]: stop
+14:55:42.348‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.348‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] STOPPED
+14:55:42.348‖ Replication: CBLRestPuller[http://192.168.1.185:4986/sync_gateway] took 16.525 sec; error=(null)
+14:55:42.350‖ Sync: CBLRestPuller[http://192.168.1.185:4986/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=207362, online=1, error=(null))
+14:55:42.351‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.351‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPING...
+14:55:42.352‖ RemoteRequest: Stopping 0 remote requests
+14:55:42.352‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] STOPPED
+14:55:42.353‖ Replication: CBLRestPusher[http://192.168.1.185:4984/sync_gateway] took 16.537 sec; error=(null)
+14:55:42.353‖ RemoteRequest: CBLRemoteSession closed
+14:55:42.356‖ Sync: CBLRestPusher[http://192.168.1.185:4984/sync_gateway]: postProgressChanged (0/0, active=0 (batch=0, net=0), lastSeq=50734, online=1, error=(null))
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closing
+14:55:42.357‖ RemoteRequest: CBLRemoteSession closed
+14:55:45.583‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:46.771‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:47.964‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:49.145‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:50.305‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:51.478‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:52.634‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:53.772‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:54.955‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:56.132‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
+14:55:57.329‖ WARNING: <CBL_Shared: 0x7fe6a2a81430>: Still waiting to -forgetDatabaseNamed: "pc_macmini_0_c5149e0b-d6a6-4d7c-9498-ed311552c663" {at -[CBL_Shared forgetDatabaseNamed:]:139}
